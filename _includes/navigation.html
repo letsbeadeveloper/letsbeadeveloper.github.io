@@ -1,0 +1,10 @@
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>Home</a></li>
+        <li> <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>About</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>

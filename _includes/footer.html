@@ -1,0 +1,12 @@
+ <nav>
+    <div class="nav-wrapper">
+   
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+      </ul>
+    </div>
+  </nav>

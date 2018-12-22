@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Spring Tutorial"
+date:   2018-08-28 21:32:06 +0530
+categories: ["Spring"]
+author: jill
+color: pink lighten-2
+---
+
+how to record video using vlc?
+how to record video using camstudio?
+How to Add Subscribe Option in Youtube Videos ?
+How to change name of your channel?
+How to write java predicates?
+How to use count and in of SPring JPA?
+How to apply new jRE library in eclipse from jre 7 to jre 8?
+HOw to create java prject in eclipse?
+how to create spring boot project?
+HUgo tutorials
+Jekyl Tutorials
+GIthub pages
+Generics iwth extends and super
+settign default values of column
