@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h1>Categories</h1>
+
+
+
+ 
+
+ {% for author in site.categories %}
+  <div class="row">
+    <div class="col s4">
+      <div class="card-panel  cyan lighten-2">
+        <span class="white-text"><h2><a href="{{ author.url }}">{{ author.name }} <a></a></h2>
+        </span>
+      </div>
+      </div>
+      
+         <div class="col s8">
+    <div class="blue-text">
+    <p >
+Second part in my two-part series on how I created Smile To Unlock. In this article you will learn how to grab a snapshot of a user from their camera and how to use the Azure Emotive APIs to calculate their happiness.
+    </p>
+    </div>
+    </div>
+ 
+      </div>
+      {% endfor %}
+

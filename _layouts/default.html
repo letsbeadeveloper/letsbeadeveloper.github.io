@@ -13,20 +13,22 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-  
+  <header>
     {% include navigation.html %}
-   <div class="row">
-      <div class="col s12">This div is 12-columns wide on all screen sizes</div>
-      <div class="col s6">6-columns (one-half)</div>
-      <div class="col s6">6-columns (one-half)</div>
-    </div>
+    </header>
+    <main>
+  <div class="container" style="margin-top:80px;">
+        <!-- Page Content goes here -->
+     
           
   
     {{ content }}
   
-  
-
-    <footer class="page-footer">
+   </div>
+</main>
+   
+  </body>
+ <footer class="page-footer" >
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -53,7 +55,5 @@
           </div>
         </footer>
    
-  </body>
-
        
 </html>

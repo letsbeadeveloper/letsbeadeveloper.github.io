@@ -10,12 +10,13 @@ title: Blog
     <div class="col s3" >
       <div class="card {{ post.color }}" {% if post.title contains 'Spring' %}class="card pink lighten-2"{% endif %}>
         <div class="card-content white-text">
-          <span class="card-title" ><a href="{{ post.url }}">{{ post.title }} {{post.date}}</a></span>
-        
+          <span class="card-title" ><a href="{{ post.url }}">{{ post.title }} </a></span>
+         <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
+          <a href="#">{{ post.categories }}</a>
+          <a href="#">{{post.date}}</a>
         </div>
       </div>
     </div>

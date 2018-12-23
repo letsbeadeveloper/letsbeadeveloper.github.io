@@ -5,6 +5,7 @@ date:   2018-08-28 21:32:06 +0530
 categories: ["Spring"]
 author: jill
 color: pink lighten-2
+readtime: 6 Min
 ---
 
 how to record video using vlc?
